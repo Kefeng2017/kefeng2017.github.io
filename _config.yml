@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-keywords:
-author: John Doe
-language: en
+title: Solotor
+subtitle: 人群中暗自憔悴 风雨中独个装逼
+description: 除了写代码别的都会
+keywords: "JavaScript,HTML,VUE,Node.js,Python,爬虫"
+author: FengKe
+language: zh-CN
 timezone:
 
 # URL
@@ -74,7 +74,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## Use post's date for updated date unless set in front-matter
-use_date_for_updated: false
+use_date_for_updated: true
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -90,7 +90,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -99,5 +99,10 @@ deploy:
   repo: git@github.com:Kefeng2017/kefeng2017.github.io.git
   branch: master
 
+search:
+	path: search.xml
+	field: post
+	format: html
+	limit: 10000
 
 
